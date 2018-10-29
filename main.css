@@ -8,9 +8,15 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background:#999;
 }
 
 .animation {
-    width: 350px;
-    height: 250px;
+    width: 450px;
+    height: 350px;
+}
+.animation:nth-of-type(1){
+}
+.animation:nth-of-type(2){
+    display:none;
 }

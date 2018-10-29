@@ -1,4 +1,4 @@
-var tl = new TimelineMax();
+var tl = new TimelineLite({ progress: true });
 
 tl.from('#stand', 0.5, { scaleY: 0, transformOrigin: 'bottom', ease: Power2.easeOut })
     .from('#standBack', 0.4, { scaleY: 0, transformOrigin: "bottom", ease: Power2.easeOut })
@@ -6,6 +6,7 @@ tl.from('#stand', 0.5, { scaleY: 0, transformOrigin: 'bottom', ease: Power2.ease
     .from('#monitor', 0.7, { opacity: 0 })
     .from('#orangeBox', 0.3, { scale: 0 })
     .staggerFrom('#group1 > path', 0.2, { scaleX: 0 }, -0.1);
+
 
 var tl2 = new TimelineMax();
 
