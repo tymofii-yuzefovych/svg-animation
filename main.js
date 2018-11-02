@@ -45,4 +45,11 @@ tl3.from('#redBook', 0.4, { scaleX: 0, transformOrigin: 'right', ease: Bounce.ea
     .from('#teaElement', 0.4, { scaleX: 0, transformOrigin: 'left', ease: Bounce.easeOut })
     .from('#teaLine', 0.4, { scaleY: 0, transformOrigin: 'top', ease: Power1.easeOut })
     .from('#teaLineElement', 0.2, { opacity: 0 })
-    .from('#shadowTeaLineElement', 0.2, { opacity: 0 })
+    .from('#shadowTeaLineElement', 0.2, { opacity: 0 });
+
+
+
+var tl4 = new TimelineMax();
+
+tl4.from('#wood_table', 0.5, {
+})
